@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3]*yEttL_IIbS#E-EM3R">strip</variable></variables><block type="device_forever" id="74x+[Q$$~U+e3~KwCAlM" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="RTtCe22|yJz5dWE[~1hD"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="radio_datagram_send_value" id="iTO/Ti-{9j@*p/}ZwO9a"><value name="name"><shadow type="text" id="L0{^KA3%^I^Cfv{RzhF("><field name="TEXT">toufic</field></shadow></value><value name="value"><shadow type="math_number" id="gItQr6pJPAD(PE:@hz^^"><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="melody_editor" id="DzChrBL}wzBw}Qqk!|*K" disabled="true" x="-9" y="206"><field name="melody">"C D E F E D C C5 "</field></block><block type="pxt-on-start" id="f@q~~h2DKzBUcz)?.S.j" x="86" y="336"><statement name="HANDLER"><block type="playMelody" id="ofOJT]~7`@AM,M{V4llX"><value name="melody"><shadow type="melody_editor"><field name="melody">"- D E D A - F E "</field></shadow><block type="melody_editor" id="ON2xyuJd?vu8N})nTo1i"><field name="melody">"- D E D A - F E "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="5$hX8,Gi0IS_DWjWRue!"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">292</field></shadow></value></block></statement></block></xml>
